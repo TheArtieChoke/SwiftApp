@@ -20,7 +20,8 @@ class ViewController: UIViewController {
     
     @IBAction func buttonPressed(_ sender: Any) {
         
-        print(textOne.text!)
+        theLabel.text = " \(Double(textOne.text!)! * Double(textTwo.text!)!)"
+        
     }
     
     @IBAction func buttonDown(_ sender: Any) {
